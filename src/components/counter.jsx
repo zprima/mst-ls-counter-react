@@ -7,8 +7,8 @@ class Counter extends Component {
       <div>
         <div>{this.props.counter.value}</div>
         <div>
-          <button onClick={this.props.counter.plus}>Plus</button>
-          <button onClick={this.props.counter.minus}>Minus</button>
+          <button onClick={this.props.counter.plus}>+ Plus</button>
+          <button onClick={this.props.counter.minus}>- Minus</button>
         </div>
       </div>
     );
